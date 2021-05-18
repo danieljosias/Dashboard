@@ -1,0 +1,77 @@
+/*estilização da admin*/
+
+.container-admin{
+    border: 1px solid lightgray;
+    width: 972px;
+    height: 510px;
+    position: relative;
+    left: 300px;
+    top:-550px;
+}
+
+.title-admin{
+    text-align: center;
+    color:#3ea175;
+    margin: 10px 0px 10px;
+}
+
+
+.formulario{
+    box-shadow: 1px 1px 5px #000;
+    width: 300px;
+    height: 250px;
+    border-radius: 15px;  
+}
+
+.container-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top:20px;
+    
+}
+
+fieldset{
+    border: none;
+    margin-top: 15px;
+}
+
+h2{
+    font-size:25px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+input{
+    border-radius: 15px;  
+    align-items: center;
+    justify-content: center;
+
+    width: 250px;
+
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+
+span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    width: 150px;
+    font-weight: bold;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+button:hover{
+    background-color: #3ea175;
+    transition: all .5s;
+    cursor: pointer;
+}

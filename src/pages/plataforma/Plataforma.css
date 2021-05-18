@@ -1,0 +1,26 @@
+/*Estilização da plataforma*/
+
+.container-plataforma{
+    border: 1px solid lightgray;
+    width: 1042px;
+    height: 548px;
+    position: relative;
+    left: 300px;
+    top:-550px;
+}
+
+.title-plataforma{
+    margin-top: 10px;
+    text-align: center;
+    color:#3ea175;
+    font-size: 10pt;
+}
+
+.texto-plataforma{
+    margin: 25px;
+}
+
+.texto-plataforma > p{
+    margin-bottom: 15px;
+}
+

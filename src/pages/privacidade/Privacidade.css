@@ -1,0 +1,29 @@
+/*Estilização da privacidade*/
+
+.container-privacidade{
+    border: 1px solid lightgray;
+    width: 1042px;
+    height: 547px;
+    position: relative;
+    left: 300px;
+    top:-550px;
+}
+
+.title-privacidade{
+    text-align:center;
+    color:#3ea175;
+    margin-bottom:10px;
+}
+
+.texto-privacidade{
+    margin: 25px;
+}
+
+.subtitle1{
+    text-align:center;
+}
+
+.subtitle2{
+    text-align:center;
+    margin-bottom: 10px;
+}

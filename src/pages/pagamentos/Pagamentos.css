@@ -1,0 +1,90 @@
+/*Estilização da pagamentos*/
+
+.container-pagamentos{
+    border: 1px solid lightgray;
+    width: 972px;
+    height: 510px;
+    position: relative;
+    left: 300px;
+    top:-550px;
+
+
+}
+
+.pagamentos-logo{
+    display:flex;
+    flex-direction:row;
+    margin-left: 35px;
+    margin-top: 20px;
+   
+    
+}
+
+.pagamentos-logo > img{
+    width:100px;
+    margin-right: 20px;
+
+    
+}
+
+.pagamentos-title > h1{
+    color:#2e4a66;
+    font-size:17pt;
+    margin-top: 25px;
+
+}
+
+.pagamentos-title > p{
+    font-size:10pt;
+    color:#a5aaad;
+    font-weight:700;
+    margin-top:3px;
+    
+}
+
+.card-principal{
+    display:flex;
+    flex-direction:row;
+    margin-left: 50px;
+}
+
+.card4{
+    margin-left:5px;
+    margin-top:30px;
+    width:200px;
+    height:100px;
+    margin-right:30px;
+}
+
+.card4:hover{
+    box-shadow: 5px 5px 13px #ededed, -5px -5px 13px #fff;
+    cursor:pointer;
+}
+
+.card-dentro{
+    padding:10px;
+}
+
+.card-text{
+
+    margin-left:20px;
+    margin-top:20px;
+    color:#2e4a66;
+    font-weight:700;
+    font-size: 17pt;
+}
+
+.texto-red{
+    margin-top:20px;
+    margin-left:20px;
+    color:red;
+    font-weight:700;
+    font-size: 12pt;
+}
+
+.texto-green{
+    margin-top:20px;
+    margin-left:20px;
+    color:green;
+    font-weight:700;
+}

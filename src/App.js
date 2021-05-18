@@ -1,24 +1,50 @@
-import logo from './logo.svg';
-import './App.css';
+import {useState} from 'react';
+import React from 'react';
+import './index.css';
+import {BrowserRouter as Routes, Switch, Route} from 'react-router-dom';
 
-function App() {
+import Sidebar from './components/sidebar/Sidebar';
+import Navbar from './components/navbar/Navbar';
+
+import Main from './pages/main/Main';
+import Produtos from './pages/produtos/Produtos';
+import Admin from './pages/admin/Admin';
+import Privacidade from './pages/privacidade/Privacidade';
+import Pagamentos from './pages/pagamentos/Pagamentos';
+import Plataforma from './pages/plataforma/Plataforma';
+import Logout from './pages/log out/Logout';
+
+const App = () => {
+
+  const [sidebarOpen, setSidebarOpen] = useState(false);
+ 
+  const openSidebar = () =>{
+    setSidebarOpen(true);
+  }
+
+  const closeSidebar = () => {
+    setSidebarOpen(false);
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Routes>
+      <div className="container">
+        <Navbar sidebarOpen={sidebarOpen} openSidebar={openSidebar} />
+        <Sidebar sidebarOpen={sidebarOpen} closeSidebar={closeSidebar} />
+      </div>
+      
+      <Switch>
+        <Route path="/produtos"><Produtos /></Route>
+        <Route path="/painel"> <Main /> </Route>
+        <Route path="/admin"> <Admin /> </Route>
+        <Route path="/privacidade"> <Privacidade /> </Route>
+        <Route path="/pagamentos"> <Pagamentos /> </Route>
+        <Route path="/plataforma"> <Plataforma /> </Route>
+        <Route path="/logout"> <Logout /> </Route>
+      </Switch>
+      
+      
+    </Routes>
   );
 }
 
