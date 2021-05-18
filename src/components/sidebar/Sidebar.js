@@ -1,5 +1,5 @@
 import './Sidebar.css';
-import logo from '../img/PERFIL.jpeg'
+import logo from '../../img/PERFIL.jpeg'
 import { Link } from 'react-router-dom';
 
 const Sidebar = ({sidebarOpen, closeSidebar}) =>{
