@@ -24,7 +24,7 @@ export default function Privacidade() {
                 <p>O uso continuado de nosso site será considerado como aceitação de nossas práticas em torno de privacidade
                     e informações pessoais. Se você tiver alguma dúvida sobre como lidamos com dados do usuário e
                     informações pessoais, entre em contacto connosco.</p>
-                <h2 className="subtitle1">Política de Cookies React Pet</h2>
+                <h2 className="subtitle1">Política de Cookies React Dashboard </h2>
                 <h3 className="subtitle2">O que são cookies?</h3>
                 <p>Como é prática comum em quase todos os sites profissionais, este site usa cookies, que são pequenos
                     arquivos baixados no seu computador, para melhorar sua experiência. Esta página descreve quais
